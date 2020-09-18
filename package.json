@@ -1,6 +1,6 @@
 {
   "name": "@sbesson/json-db",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Gère une collection de document json, persistant en fichier",
   "main": "index.js",
   "directories": {
