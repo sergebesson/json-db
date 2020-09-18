@@ -44,6 +44,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sergebesson/sb-collection-file.git"
+    "url": "https://github.com/sergebesson/json-db.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sergebesson/json-db/issues"
+  },
+  "homepage": "https://github.com/sergebesson/json-db#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   }
 }
