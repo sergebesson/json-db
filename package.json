@@ -15,12 +15,12 @@
     "yargs": "^16.0.3"
   },
   "devDependencies": {
+    "@sbesson/test-helpers": "^1.0.0",
     "depcheck": "^1.2.0",
     "eslint": "^7.9.0",
     "eslint-plugin-node": "^11.1.0",
     "mocha": "^8.1.3",
-    "nyc": "^15.0.1",
-    "sb-test-helpers": "^1.0.2"
+    "nyc": "^15.0.1"
   },
   "scripts": {
     "test": "mocha **/*Spec.js",

@@ -1,6 +1,6 @@
 "use strict";
 
-const {sinon, chai: {expect}, example} = require("sb-test-helpers");
+const {sinon, chai: {expect}, example} = require("@sbesson/test-helpers");
 
 const fs = require("fs");
 const JsonDb = require("../../services/JsonDb.js");

@@ -1,7 +1,7 @@
 "use strict";
 
 const _ = require("lodash");
-const {sinon, chai: {expect}, example} = require("sb-test-helpers");
+const {sinon, chai: {expect}, example} = require("@sbesson/test-helpers");
 const uniqid = require("uniqid");
 
 const CollectionModel = require("../../models/Collection.js");
