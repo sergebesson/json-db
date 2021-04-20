@@ -3,6 +3,7 @@
 const _ = require("lodash");
 const uniqid = require("uniqid");
 const Ajv = require("ajv");
+const ajvFormats = require("ajv-formats");
 const removeAccents = require("remove-accents");
 const escapeStringRegexp = require("escape-string-regexp");
 
@@ -16,6 +17,7 @@ class Collection {
 
 		if (_.isObject(this._structure.jsonSchema)) {
 			const ajv = new Ajv({allErrors: true});
+			ajvFormats(ajv);
 			this.ajvValidate = ajv.compile(this._structure.jsonSchema);
 		}
 
