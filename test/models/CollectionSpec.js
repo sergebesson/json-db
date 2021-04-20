@@ -618,9 +618,9 @@ describe("Collection model", function () {
 					success: false,
 					error: "invalidDocument",
 					reasons: [{
-						dataPath: ".name",
+						instancePath: "/name",
 						keyword: "type",
-						message: "should be string",
+						message: "must be string",
 						params: {
 							type: "string",
 						},
